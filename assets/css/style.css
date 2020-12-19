@@ -84,6 +84,7 @@ section {
     font-size: 16px
 }
 
+
 .section-title {
     font-size: 55px;
     color: #024e76;
@@ -99,6 +100,7 @@ section {
     border-color: #39a6b2;
 }
 
+
 .intro {
     text-align: center
 }
@@ -109,6 +111,7 @@ section {
     font-size: 20px;
     margin: 0 auto;
 }
+
 
 .steps {
     text-align: center;
@@ -203,13 +206,12 @@ section {
     text-align: right;
 }
 
-.out {
+
+.info {
     text-align: center;
     background-color: #024e76;
 }
-
-
-.out h2 {
+.info h2 {
     font-size: 55px;
     color: #fce138;
     margin-bottom: 35px;
