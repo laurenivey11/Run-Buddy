@@ -265,3 +265,16 @@ footer div{
 footer a{
     color: #024e76;
 }
+
+.privacy-hero {
+    height: 275px;
+    background-position: bottom;
+    text-align: center;
+    padding-top:  80px;
+}
+.privacy-hero h2{
+    color: #fce138;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+}
