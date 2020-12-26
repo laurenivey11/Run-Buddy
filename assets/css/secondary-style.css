@@ -11,13 +11,15 @@ body {
 header{
     padding: 20px 35px;
     background-color: #39a6b2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 header h1{
     font-weight: bold;
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
 }
 header a{
     color: #fce138;
@@ -27,13 +29,17 @@ header nav {
     float: right;
     margin: 7px 0;
 }
-header nav ul li {
-    display: inline;
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
 }
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw;
 }
 
 .page-title {
@@ -85,15 +91,16 @@ header nav ul li a {
 footer {
     padding: 20px 35px;
     background-color: #fce138;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 footer h2 {
     font-size: 30px;
     color: #024e76;
     margin: 0;
-    display: inline;
 }
 footer div{
-    float: right;
     line-height: 1.5;
     text-align: right;
 }
