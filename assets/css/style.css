@@ -25,13 +25,17 @@ header a{
     text-decoration: none;
 }
 header nav {
-    float: right;
     margin: 7px 0;
 }
 header nav ul {
     display: flex;
+<<<<<<< HEAD
     justify-content: space-between;
     flex-wrap: wrap;
+=======
+    flex-wrap: wrap;
+    justify-content: space-between;
+>>>>>>> feature/flexbox
     align-items: center;
     list-style: none;
 }
