@@ -208,6 +208,18 @@ section {
     font-size: 17px;
 }
 
+.services {
+    background-color: #fce138;
+}
+.service-grid-container {
+    display: grid;
+}
+.service-grid-item {
+    color: #024e76;
+    border: solid;
+    border-color: #024e76;
+
+}
 
 
 .contact {
