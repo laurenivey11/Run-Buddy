@@ -393,7 +393,7 @@ footer a{
         flex: 100%;
     }
     .service-grid-container {
-        grid-template-columns:  1fr 1f;
+        grid-template-columns:  1fr 1fr;
     }
     .service-grid-item.basic {
         grid-column: 1;
@@ -404,7 +404,7 @@ footer a{
     .service-grid-item.cancel {
         Writing-mode: unset;
         grid-column: 1 / -1;
-        grid-row: 1;
+        grid-row: -1;
        transform: none;
     }
 }
